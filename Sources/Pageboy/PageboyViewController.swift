@@ -20,7 +20,7 @@ open class PageboyViewController: UIViewController {
 
     // MARK: Properties
     
-    var pageViewController: UIPageViewController?
+    public var pageViewController: UIPageViewController?
     internal var previousPagePosition: CGFloat?
     internal var expectedTransitionIndex: PageIndex?
 
